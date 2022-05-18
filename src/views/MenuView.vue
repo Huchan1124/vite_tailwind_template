@@ -16,7 +16,7 @@
       <div class=" bg-blue-500 ">02</div>
       <div class=" bg-blue-500 ">03</div>
       <div class=" bg-brown-500">04</div>
-      <div class=" text-brown-600 ">05</div>
+      <div class=" text-brown-600 wavy-underline">055555555555555555555</div>
     </div>
   </div>
 

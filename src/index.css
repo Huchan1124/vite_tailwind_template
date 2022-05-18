@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .wavy-underline {
+    @apply underline decoration-2 decoration-indigo-500 decoration-wavy;
+  }
+}
