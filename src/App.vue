@@ -41,7 +41,7 @@ export default {
       </div>
     </nav>
 
-    <ul v-if="hamburgerMenuStatus" class=" md:hidden bg-slate-100 text-center ">
+    <ul v-if="hamburgerMenuStatus" class="  md:hidden bg-slate-100 text-center ">
       <li class=" h-10 leading-10">About</li>
       <li class=" h-10 leading-10">Docs</li>
       <li class=" h-10 leading-10">Examples</li>
