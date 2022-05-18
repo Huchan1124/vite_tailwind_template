@@ -17,7 +17,9 @@
       <div class=" bg-blue-500 col-span-2">02</div>
       <div class=" bg-blue-500 ">03</div>
       <div class=" bg-brown-500">04</div>
-      <div class=" text-brown-600 wavy-underline">055555555555555555555</div>
+      <div class="text-brown-600  wavy-underline break-words">
+        ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      </div>
       <div class="row-span-2">
         <img class=" max-w-full h-full object-cover"
           src="https://images.unsplash.com/photo-1597633425046-08f5110420b5?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470"
