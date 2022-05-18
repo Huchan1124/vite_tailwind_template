@@ -11,7 +11,7 @@
       </h1>
     </header>
 
-    <div class="grid gap-4 grid-cols-1 md:grid-cols-3 p-4 ">
+    <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 ">
       <div class=" bg-blue-500  ">01</div>
       <div class=" bg-blue-500 ">02</div>
       <div class=" bg-blue-500 ">03</div>
