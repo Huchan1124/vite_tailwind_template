@@ -2,24 +2,24 @@
 import { RouterLink, RouterView } from 'vue-router'
 
 export default {
-   data() {
-        return {
-          hamburgerMenuStatus:false
+  data() {
+    return {
+      hamburgerMenuStatus: false
 
-
-        }
-
-    },
-    methods: {
-        toggleHamburgerMenu(e) {
-             this.hamburgerMenuStatus = !this.hamburgerMenuStatus;
-        },
-
-
-    },
-    mounted() {
 
     }
+
+  },
+  methods: {
+    toggleHamburgerMenu(e) {
+      this.hamburgerMenuStatus = !this.hamburgerMenuStatus;
+    },
+
+
+  },
+  mounted() {
+
+  }
 }
 
 </script>
@@ -37,17 +37,18 @@ export default {
         <li class="w-20 h-10 leading-10">Contact</li>
       </ul>
       <div @click="toggleHamburgerMenu" class="md:hidden w-10 h-10 outline  outline-pink-500">
-         Menu
+        Menu
       </div>
     </nav>
-
-    <ul v-if="hamburgerMenuStatus" class="  md:hidden bg-slate-100 text-center ">
-      <li class=" h-10 leading-10">About</li>
-      <li class=" h-10 leading-10">Docs</li>
-      <li class=" h-10 leading-10">Examples</li>
-      <li class=" h-10 leading-10">Blog</li>
-      <li class=" h-10 leading-10">Contact</li>
-    </ul>
+    <Transition>
+      <ul v-if="hamburgerMenuStatus" class="  md:hidden bg-slate-100 text-center ">
+        <li class=" h-10 leading-10">About</li>
+        <li class=" h-10 leading-10">Docs</li>
+        <li class=" h-10 leading-10">Examples</li>
+        <li class=" h-10 leading-10">Blog</li>
+        <li class=" h-10 leading-10">Contact</li>
+      </ul>
+    </Transition>
   </header>
 
 
@@ -56,4 +57,14 @@ export default {
 
 <style>
 /* @import '@/assets/base.css'; */
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
 </style>
