@@ -7,7 +7,7 @@
 
   <div class="container mx-auto pt-20 ">
     <div class="bg-slate-100 p-4 text-center ">
-      <h1 class="animate__animated animate__bounceIn text text-3xl text-rose-500 transition-all   font-bold underline ">
+      <h1 class=" text text-3xl text-rose-500 transition-all   font-bold underline ">
         Hello world!
       </h1>
     </div>
