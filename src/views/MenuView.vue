@@ -3,13 +3,14 @@
 
 </script>
 
-<template>
-  <div class="container mx-auto ">
-    <header class="bg-slate-100 p-4 text-center">
-      <h1 class="text-3xl text-rose-500 font-bold underline ">
+<template >
+
+  <div class="container mx-auto pt-20 ">
+    <div class="bg-slate-100 p-4 text-center ">
+      <h1 class="text text-3xl text-rose-500 transition-all   font-bold underline ">
         Hello world!
       </h1>
-    </header>
+    </div>
 
     <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 ">
       <div class=" bg-blue-500  ">01</div>
@@ -22,8 +23,15 @@
 
 
 
+
+
+
 </template>
 
 <style>
-@import '@/assets/base.css';
+/* @import '@/assets/base.css'; */
+
+.text:hover {
+  color: rgb(43, 92, 226);
+}
 </style>
