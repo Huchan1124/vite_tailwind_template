@@ -7,7 +7,7 @@
 
   <div class="container mx-auto pt-20 ">
     <div class="bg-slate-100 p-4 text-center ">
-      <h1 class=" text text-3xl text-rose-500 transition-all   font-bold underline ">
+      <h1 class="text-3xl text-rose-500 font-macondo font-bold underline hover:text-blue-500 after:content-['_↗'] ">
         Hello world!
       </h1>
     </div>
@@ -56,7 +56,5 @@
 <style>
 /* @import '@/assets/base.css'; */
 
-.text:hover {
-  color: rgb(43, 92, 226);
-}
+
 </style>

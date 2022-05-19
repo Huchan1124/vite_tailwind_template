@@ -19,6 +19,9 @@ module.exports = {
           900: '#43302b',
         },
       },
+      fontFamily: {
+        'macondo': ['Macondo'],
+      },
     },
     plugins: [],
   }
