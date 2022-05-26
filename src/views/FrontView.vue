@@ -18,7 +18,7 @@ export default {
 <template>
   <header class="fixed w-full h-10">
     <nav class="bg-slate-200 flex items-center justify-between p-4">
-      <img style="width:40px;" src="./assets/logo.svg" alt />
+      <img style="width:40px;" src="../assets/logo.svg" alt />
 
       <ul class="hidden md:flex justify-end text-center">
         <router-link to="/about" class="w-20 h-10 leading-10">
